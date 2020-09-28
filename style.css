@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    background-color: beige;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+.design{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    -ms-flex-order: initial;
+    opacity: 1;
+}
+.design:hover img{
+ opacity: 0.5;  
+}
+.design:hover a{
+    opacity: 1;
+}
+body{
+    background-color: lightslategray;
+}
+h1{
+    color: black;
+}
